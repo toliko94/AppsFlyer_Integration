@@ -1,27 +1,17 @@
 package com.example.appflyerintegration;
-
 import android.app.Application;
 import android.os.Bundle;
 import android.util.Log;
-
 import androidx.appcompat.app.AppCompatActivity;
-
 import com.appsflyer.AppsFlyerLib;
 import com.appsflyer.attribution.AppsFlyerRequestListener;
-
 import java.util.Map;
-
 import com.appsflyer.deeplink.DeepLink;
 import com.appsflyer.deeplink.DeepLinkListener;
 import com.appsflyer.deeplink.DeepLinkResult;
 import com.appsflyer.AppsFlyerConversionListener;
-
-import android.app.Application;
 import android.content.Intent;
-import android.util.Log;
-
 import androidx.annotation.NonNull;
-import java.util.Map;
 import java.util.Objects;
 
 
